@@ -61,3 +61,56 @@ h1{
     width: 50%;
     margin: 0 auto;
 }
+
+/* --- about-physics --- */
+#about-physics{
+    padding: 50px 20px;
+}
+#about-physics > div{
+    position: relative;
+}
+.about-physics-images{
+    /*background-image: url("../images/about-physics-1.jpg");*/
+    background-color: darkslategrey;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#about-physics h2{
+    position: absolute;
+    text-transform: uppercase;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5cm;
+    margin: 0;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+#about-physics img{
+    max-width: 200px;
+    float: left;
+    padding-right: 20px;
+}
+#about-physics p{
+    font-size: 1.1cm;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+#about-physics p::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+/* --- chapters ---*/
+.chapters{
+    background-color: grey;
+}
+.chapters h2{
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    text-transform: uppercase;
+}
