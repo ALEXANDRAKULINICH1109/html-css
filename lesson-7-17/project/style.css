@@ -38,7 +38,7 @@ header nav a{
 header nav ul a:hover{
     background-color: rgb(20, 0, 6);
 }
-.welcome to physics{
+.welcome-to-physics{
     background-image: url('../project/images/b-dark-2.jpg');
     background-position: center;
     background-size: cover;
@@ -53,4 +53,11 @@ h1{
     padding-top: 250px;
     padding-bottom: 100px;
     text-shadow: 1px 1px 1px #4c533d;
+}
+.welcome-to-physics{
+    background-color: rgba(20, 20, 20, 0.8);
+    color: white;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
 }
