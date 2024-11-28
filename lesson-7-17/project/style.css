@@ -73,6 +73,7 @@ h1{
     /*background-image: url("../images/about-physics-1.jpg");*/
     background-color: darkslategrey;
     height: 150px;
+    width: 100px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -113,4 +114,8 @@ h1{
     padding: 20px;
     margin: 0px;
     text-transform: uppercase;
+}
+.chapters-background{
+    background-image: url('../project/images/electric-600x600.jpg');
+    height: 100px;
 }
