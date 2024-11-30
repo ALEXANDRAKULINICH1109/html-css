@@ -71,3 +71,30 @@ h2 {
     font-size: 1.2em;
     margin-top: 10px;
 }
+section{
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.text {
+    width: 60%;
+    padding-right: 20px;
+}
+.image {
+    width: 30%;
+}
+.image img {
+    width: 100%;
+    border-radius: 8px;
+}
+.section-header {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
