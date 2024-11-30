@@ -105,6 +105,7 @@ h1{
     clear: both;
     display: table;
 }
+
 /* --- chapters ---*/
 .chapters{
     background-color: grey;
@@ -115,7 +116,16 @@ h1{
     margin: 0px;
     text-transform: uppercase;
 }
+.chapters > div{
+    position: relative;
+    z-index: 1;
+}
 .chapters-background{
     background-image: url('../project/images/electric-600x600.jpg');
-    height: 100px;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
 }
