@@ -1,0 +1,47 @@
+header{
+    text-align: center;
+    padding: 40px;
+    background-color: greenyellow;
+    font-size: 2rem;
+}
+/* main */
+main div{
+    padding: 20px;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+main div:nth-child(1){
+    width: 50%;
+    background-color: grey;
+}
+main div:nth-child(2){
+    width: 50%;
+    background-color: yellow;
+}
+main div:nth-child(3){
+    width: 100%;
+    background-color: blueviolet;
+}
+/* media */
+/* 600 */
+@media (max-width: 600px){
+    header{
+        font-size: 1.2rem;
+    }
+}
+/* 500 */
+@media (max-width: 500px){
+     main div:nth-child(1){
+        width: 100%;
+    }
+    main div:nth-child(2){
+        width: 100%;
+    }
+    main div:nth-child(3){
+        width: 100%;
+        background-color: red;
+    }
+}
